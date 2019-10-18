@@ -1,0 +1,10 @@
+# What's the source URL of the website you want to make static?
+SOURCE_URL=http://source.example.org
+
+# How many nested levels deep should the crawler go?
+# ie: the URI "/nl/home/about/region/belgium/department/sales" is 7 levels
+LEVELS=5
+
+# Where to store the static version of the site?
+# Note: this directory should already exist and be empty
+DESTINATION_DIR=/var/www/vhosts/site.tld/static
