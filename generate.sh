@@ -80,5 +80,7 @@ find $DESTINATION_DIR -type f -name '*\?*' |\
 echo "Done."
 echo "Your static version of the website is available at the following location:"
 echo $DESTINATION_DIR
+echo ""
+echo "Note: this should be served via Apache/Lighttpd, URLs will contain absolute values (ie: /contact)."
 
 exit 0
